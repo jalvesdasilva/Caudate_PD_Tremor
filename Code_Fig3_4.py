@@ -443,7 +443,7 @@ df_clinical['Tremor'] = df_clinical[['3. 15 D', '3.15 E', '3.16 D', '3. 16 E',
 #PIGD
 df_clinical['PIGD'] = df_clinical[['3.10', '3.11', '3.12']].sum(axis=1)
 #Bradykinesia
-df_clinical['Bradykinesia'] = df_clinical[['3.2', '3.4 D', '3.4 E', '3.5 D', 
+df_clinical['Bradykinesia'] = df_clinical[['3.4 D', '3.4 E', '3.5 D', 
                                            '3.5 E', '3.6 D', '3.6 E', '3.7 D', 
                                            '3.7 E', '3.8 D', '3.8 E', '3.9', 
                                            '3.14']].sum(axis=1)
